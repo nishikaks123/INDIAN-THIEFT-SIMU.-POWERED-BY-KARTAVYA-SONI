@@ -1,5 +1,5 @@
 {
-  "name": "3D Open World Prototype",
-  "description": "An evolving prototype for a 3D open-world game. Features WASD movement, a dynamic day/night cycle, rain effects (toggle with 'R'), and resource gathering (collect green blocks with 'E').",
+  "name": "GDD.ai - AI Game Design Partner",
+  "description": "An AI-powered tool that takes a high-level game concept and generates a detailed Game Design Document (GDD) using the Gemini API.",
   "requestFramePermissions": []
 }
