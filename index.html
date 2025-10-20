@@ -8,6 +8,17 @@
     <style>
         body { margin: 0; overflow: hidden; }
         canvas { display: block; }
+        .label {
+            color: #FFF;
+            font-family: sans-serif;
+            padding: 5px 10px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            font-size: 14px;
+            pointer-events: none;
+            text-shadow: 1px 1px 2px black;
+        }
     </style>
 <script type="importmap">
 {
@@ -16,7 +27,8 @@
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
-    "three": "https://aistudiocdn.com/three@^0.167.0"
+    "three": "https://aistudiocdn.com/three@^0.167.0",
+    "three/addons/": "https://aistudiocdn.com/three@^0.167.0/examples/jsm/"
   }
 }
 </script>
